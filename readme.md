@@ -17,9 +17,9 @@ Les hébergements peuvent également être filtrés par thématique, par exemple
 
 A partir d'une maquette, le site doit etre réalisé en résponsive en utilisant HTML & CSS et en respectant la charte graphique ainsi que le visuel de la maquette.
 
-**A ce stade du projet**
+**A ce stade du projet**:
+      
       -le bouton de recherche ne sera pas fonctionnel.
-
       -les liens seront vides.
       -Les filtres ne seront pas fonctionnels
       -les liens “Hébergements” et “Activités” sont des ancres qui doivent mener aux sections de la page.
