@@ -319,17 +319,14 @@ figure.pop-label:hover {
 	width: 100%;
 	filter: drop-shadow(2px 4px 6px #f2f2f2);
 }
-.activity-bloc-box1 {
-	display: flex;
-	width: 100%;
-	margin: 10px;
-}
+.activity-bloc-box1,
 .activity-bloc-box2 {
 	display: flex;
 	flex-direction: column;
 	width: 100%;
 	margin: 10px;
 }
+
 .activity-box1,
 .activity-box2,
 .activity-box3,
@@ -422,7 +419,7 @@ li a.footer-list-txt {
 	font-weight: 200;
 	color: inherit;
 }
-@media only screen and (min-width: 660px) and (max-width: 1024px) {
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
 	h3,
 	p {
 		font-size: 20px;
@@ -521,7 +518,7 @@ li a.footer-list-txt {
 		font-size: 20px;
 	}
 }
-@media only screen and (max-width: 661px) {
+@media only screen and (max-width: 768px) {
 	.header {
 		margin: 0;
 	}
@@ -620,7 +617,7 @@ li a.footer-list-txt {
 	.info {
 		align-items: baseline;
 	}
-	div#main-part {
+	#main-part {
 		flex-wrap: wrap-reverse;
 	}
 	.global-host {
@@ -681,12 +678,11 @@ li a.footer-list-txt {
 		height: 270px;
 		overflow: hidden;
 	}
-	.activity-bloc-box1 {
-		margin: 0;
-	}
+	.activity-bloc-box1,
 	.activity-bloc-box2 {
 		margin: 0;
 	}
+
 	img.img-pnc,
 	img.img-vp {
 		width: 100%;
