@@ -223,7 +223,7 @@ input {
 }
 .host-label-box {
 	flex: 1 1 0;
-	min-width: 290px;
+	min-width: 240px;
 	margin: 15px;
 }
 .host-label-box:hover {
