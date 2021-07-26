@@ -115,6 +115,7 @@ li {
 	color: #000;
 }
 .button-search {
+	cursor: pointer;
 	padding: 0 20px 0 20px;
 	border: none;
 	border-radius: 0 10px 10px 0;
@@ -152,11 +153,16 @@ input {
 	margin: 0 15px 0 15px;
 }
 .button-filter {
+	cursor: pointer;
 	padding: 15px 15px 15px 55px;
 	border: 1px solid #f2f2f2;
 	border-radius: 50px;
 	font-weight: 700;
 	background-color: transparent;
+}
+
+.button-filter:hover {
+	background-color: #deebff4d;
 }
 .filter-name {
 	position: absolute;
