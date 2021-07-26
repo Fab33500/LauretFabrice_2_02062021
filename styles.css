@@ -298,7 +298,7 @@ figure.pop-label {
 	display: flex;
 	flex-direction: row;
 	margin: 20px;
-	padding: 5px;
+	padding: 5px 5px 2px 5px;
 	min-width: 300px;
 	min-height: 140px;
 	border-radius: 20px;
